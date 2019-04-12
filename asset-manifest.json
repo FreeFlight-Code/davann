@@ -1,14 +1,14 @@
 {
-  "main.css": "/davann/static/css/main.29fa5b80.chunk.css",
-  "main.js": "/davann/static/js/main.b7452f18.chunk.js",
-  "main.js.map": "/davann/static/js/main.b7452f18.chunk.js.map",
-  "runtime~main.js": "/davann/static/js/runtime~main.7deae8ac.js",
-  "runtime~main.js.map": "/davann/static/js/runtime~main.7deae8ac.js.map",
-  "static/js/2.65aa1cca.chunk.js": "/davann/static/js/2.65aa1cca.chunk.js",
-  "static/js/2.65aa1cca.chunk.js.map": "/davann/static/js/2.65aa1cca.chunk.js.map",
-  "index.html": "/davann/index.html",
-  "precache-manifest.d7651408aa8d5cc0d22ae8febad74b93.js": "/davann/precache-manifest.d7651408aa8d5cc0d22ae8febad74b93.js",
-  "service-worker.js": "/davann/service-worker.js",
-  "static/css/main.29fa5b80.chunk.css.map": "/davann/static/css/main.29fa5b80.chunk.css.map",
-  "static/media/logo.svg": "/davann/static/media/logo.5d5d9eef.svg"
+  "main.css": "/static/css/main.29fa5b80.chunk.css",
+  "main.js": "/static/js/main.f926337b.chunk.js",
+  "main.js.map": "/static/js/main.f926337b.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+  "static/js/2.65aa1cca.chunk.js": "/static/js/2.65aa1cca.chunk.js",
+  "static/js/2.65aa1cca.chunk.js.map": "/static/js/2.65aa1cca.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.1dcab505956b4586d51c53e18c9a6703.js": "/precache-manifest.1dcab505956b4586d51c53e18c9a6703.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.29fa5b80.chunk.css.map": "/static/css/main.29fa5b80.chunk.css.map",
+  "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
 }
