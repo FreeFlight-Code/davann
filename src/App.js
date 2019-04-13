@@ -1,25 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+
+  video = (videoId, youtubeId, start, end, mute = 0)=>{
+      return (
+        <iframe id={videoId} 
+          src={`https://www.youtube.com/embed/${youtubeId}?autoplay=1&showinfo=0&controls=0&subdued=1&mute=${mute}&start=${start}&end=${end}`} 
+          frameborder="0" 
+          controls="0"
+          autoplay="1" 
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen
+        >
+        </iframe>
+      )
+  }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        {this.video('godmadeyouforme', 'jLCHpZ6B1gU', 0, 35)}
+        {this.video('unforgettable', '_T8ml-P0GkI', 0, 10)}
       </div>
     );
   }
