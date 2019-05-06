@@ -3,41 +3,86 @@ import Video from './Video';
 
 const videoList = [
     {
+        url: "-6PRfDENIds",
+        title: 'weddingsinger',
+        id: "1",
+        start: 427,
+        end: 630,
+        mute: 0,
+        delay: 200
+    },
+    {
+        url: "bFsgLhx9dxg",
+        title: 'youhavebewitchedme',
+        id: "1",
+        start: 102,
+        end: 142,
+        mute: 0,
+        delay: 42
+    },
+    {
+        url: "tKv02DifTXo",
+        title: 'illfindyou',
+        id: "1",
+        start: 5,
+        end: 21,
+        mute: 1,
+        delay: 1
+    },
+    {
+        url: "yJBlRpAi4zw",
+        title: 'charming',
+        id: "1",
+        start: 60,
+        end: 156,
+        mute: 0,
+        delay: 1
+    },
+    {
+        url: "feeuoERYOV0",
+        title: 'wheredyougo',
+        id: "1",
+        start: 0,
+        end: 75,
+        mute: 0,
+        delay: 1
+    },
+    {
         url: "7qH4qyi1-Ys",
         title: 'hurtsthemost',
         id: "1",
-        start: 10,
-        end: 30,
-        mute: 1,
-        delay: 12
+        start: 31,
+        end: 120,
+        mute: 0,
+        delay: 1
     },
     {
         url: "2SzeQqwhB1A",
         title: 'incaseyoudidntknow',
         id: "2",
-        start: 5,
-        end: 10,
+        start: 50,
+        end: 120,
         mute: 0,
-        delay: 7
+        delay: 1
     },
     {
         url: "eM213aMKTHg",
         title: 'needyounow',
         id: "3",
-        start: 100,
-        end: 110,
+        start: 54,
+        end: 67,
         mute: 0,
-        delay: 12
+        delay: 1
     },
-    {
-        url: "-2U0Ivkn2Ds",
-        title: 'saysomething',
-        id: "4",
-        start: 0,
-        end: 0,
-        mute: 0,
-        delay: 5
-    },
+    // {
+    //     url: "-2U0Ivkn2Ds",
+    //     title: 'saysomething',
+    //     id: "4",
+    //     start: 0,
+    //     end: 0,
+    //     mute: 0,
+    //     delay: 10
+    // },
     {
         url: "udnGW3E1vxY",
         title: 'whatsmineisyours',
@@ -45,7 +90,7 @@ const videoList = [
         start: 0,
         end: 0,
         mute: 0,
-        delay: 10
+        delay: 1
     },
     {
         url: "0yW7w8F2TVA",
@@ -54,7 +99,7 @@ const videoList = [
         start: 0,
         end: 0,
         mute: 0,
-        delay: 5
+        delay: 1
     },
     {
         url: "un-rfEyPBO4",
@@ -69,47 +114,29 @@ const videoList = [
         url: "mdsfxsvaDTY",
         title: "howtoloveawoman",
         id: "8",
-        start: 0,
-        end: 0,
+        start: 102,
+        end: 170,
         mute: 0,
-        delay: 3
+        delay: 1
     },
     {
-        url: "L1zyds1dOzI",
-        title: '',
+        url: "T4pT1Y85uEg",
+        title: 'youweremeantforme',
         id: "9",
-        start: 0,
-        end: 0,
+        start: 53,
+        end: 76,
         mute: 0,
         delay: 1
     },
     {
-        url: "MXTSYoHb4C0",
-        title: '',
+        url: "6NBiH44A7QI",
+        title: 'weddingdate',
         id: "10",
-        start: 0,
-        end: 0,
-        mute: 0,
-        delay: 4
-    },
-    {
-        url: "L1zyds1dOzI",
-        title: '',
-        id: "11",
-        start: 0,
-        end: 0,
+        start: 45,
+        end: 85,
         mute: 0,
         delay: 1
     },
-    {
-        url: "MXTSYoHb4C0",
-        title: '',
-        id: "12",
-        start: 0,
-        end: 0,
-        mute: 0,
-        delay: 10
-    }
 ]
 export default class VideoProgram extends Component {
     constructor(props) {

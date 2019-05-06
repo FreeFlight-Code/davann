@@ -7,20 +7,106 @@
   scrollbar-arrow-color: red;
   color: white;
 }
+#headerContainer{
+  font-size: 5rem;
+  font-family: cursive;
+  padding: 1rem 0 0 3rem;
+}
+
+#headerContainer span:nth-child(1){
+  font-size: 8rem;
+  color: #ce4c4c;
+  opacity: 0;
+  animation: fadein 100ms linear 3000ms 1 forwards;
+}
+#headerContainer span:nth-child(2){
+  color: #ce4c4c;
+  opacity: 0;
+  animation: fadein 100ms linear 3200ms 1 forwards;
+}
+#headerContainer span:nth-child(3){
+  color: #ce4c4c;
+  opacity: 0;
+  animation: fadein 100ms linear 3400ms 1 forwards;
+}
+#headerContainer span:nth-child(4){
+  color: #ce4c4c;
+  opacity: 0;
+  animation: fadein 100ms linear 3600ms 1 forwards;
+}
+#headerContainer span:nth-child(5){
+  color: #ce4c4c;
+  opacity: 0;
+  animation: fadein 100ms linear 3800ms 1 forwards;
+}
+#headerContainer span:nth-child(6){
+  color: #ce4c4c;
+  opacity: 0;
+  animation: fadein 100ms linear 4000ms 1 forwards;
+}
+#headerContainer span:nth-child(7){
+  color: #ce4c4c;
+  opacity: 0;
+  animation: fadein 100ms linear 4200ms 1 forwards;
+}
+#headerContainer span:nth-child(8){
+  color: #ce4c4c;
+  opacity: 0;
+  animation: fadein 100ms linear 4400ms 1 forwards;
+}
+#headerContainer span:nth-child(9){
+  font-size: 8rem;
+  color: #ce4c4c;
+  opacity: 0;
+  animation: fadein 100ms linear 5000ms 1 forwards;
+}
+#headerContainer span:nth-child(10){
+  color: #ce4c4c;
+  opacity: 0;
+  animation: fadein 100ms linear 5200ms 1 forwards;
+}
+#headerContainer span:nth-child(11){
+  color: #ce4c4c;
+  opacity: 0;
+  animation: fadein 100ms linear 5400ms 1 forwards;
+}
+#headerContainer span:nth-child(12){
+  color: #ce4c4c;
+  opacity: 0;
+  animation: fadein 100ms linear 5600ms 1 forwards;
+}
+#headerContainer span:nth-child(13){
+  color: #ce4c4c;
+  opacity: 0;
+  animation: fadein 100ms linear 5800ms 1 forwards;
+}
+#headerContainer span:nth-child(14){
+  color: #ce4c4c;
+  opacity: 0;
+  animation: fadein 100ms linear 6000ms 1 forwards;
+}
+#headerContainer span:nth-child(15){
+  color: #ce4c4c;
+  opacity: 0;
+  animation: fadein 100ms linear 6200ms 1 forwards;
+}
+#headerContainer span:nth-child(16){
+  color: #ce4c4c;
+  opacity: 0;
+  animation: fadein 100ms linear 6400ms 1 forwards;
+}
+
+
 
 #hurtsthemost{
   position: absolute;
   right: 100vw;
-  width: 700px;
-  height: 550px;
-  animation: slideright 30s linear 3s 1 forwards;
+  animation: slideright 10s linear 3s 1 forwards;
 }
 #incaseyoudidntknow{
   position: absolute;
   right: 100vw;
-  width: 700px;
-  height: 550px;
-  animation: fadeout 30s linear 33s 1 forwards;
+  animation: fadeout 10s linear 3s 1 forwards;
 }
 
 @keyframes slideleft{
@@ -48,6 +134,14 @@
   }
   100%{
     opacity: 0;
+  }
+}
+@keyframes fadein{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
   }
 }
 @keyframes slideright{
