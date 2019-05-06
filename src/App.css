@@ -5,16 +5,17 @@
   background-color: black;
   overflow: hidden;
   scrollbar-arrow-color: red;
+  color: white;
 }
 
-#godmadeyouforme{
+#hurtsthemost{
   position: absolute;
   right: 100vw;
   width: 700px;
   height: 550px;
   animation: slideright 30s linear 3s 1 forwards;
 }
-#unforgettable{
+#incaseyoudidntknow{
   position: absolute;
   right: 100vw;
   width: 700px;
