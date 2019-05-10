@@ -1,0 +1,59 @@
+
+@keyframes disappear{
+    0%{
+      display: inline-block;
+    }
+    100%{
+      display: none;
+    }
+  }
+@keyframes slideleft{
+    0%{
+      top: 0px;
+      left: 120vw;
+      opacity: 1;
+    }
+    50%{
+      top: 50vh;
+      left: 50vw;
+      opacity: 1;
+    }
+    100%{
+      top: 0px;
+      left: -80vw;
+      opacity: 0;
+    }
+  }
+  @keyframes fadeout{
+    0%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+  @keyframes fadein{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  @keyframes slideright{
+    0%{
+      top: 0px;
+      right: 120vw;
+      opacity: 1;
+    }
+    50%{
+      top: 50vh;
+      right: 50vw;
+      opacity: 1;
+    }
+    100%{
+      top: 0px;
+      right: -80vw;
+      opacity: 0;
+    }
+  }

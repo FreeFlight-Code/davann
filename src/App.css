@@ -7,157 +7,92 @@
   scrollbar-arrow-color: red;
   color: white;
 }
+#mobileAlert{
+  position: absolute;
+  background-color: purple;
+  top: 10vh;
+  z-index: 1;
+  animation: fadeout 100ms linear 3000ms 1 forwards;
+}
 #headerContainer{
-  font-size: 5rem;
+  padding-left: 20px;
+  height: 8vh;
+}
+.headerTitle{
+  font-size: 1.6rem;
   font-family: cursive;
-  padding: 1rem 0 0 3rem;
+  opacity: 0;
 }
 
-#headerContainer span:nth-child(1){
-  font-size: 8rem;
+span:nth-child(1), span:nth-child(6), span:nth-child(12){
+  font-size: 2em;
+}
+
+#headerContainer span{
   color: #ce4c4c;
-  opacity: 0;
+}
+#headerContainer span:nth-child(1){
   animation: fadein 100ms linear 3000ms 1 forwards;
 }
 #headerContainer span:nth-child(2){
-  color: #ce4c4c;
-  opacity: 0;
   animation: fadein 100ms linear 3200ms 1 forwards;
 }
 #headerContainer span:nth-child(3){
-  color: #ce4c4c;
-  opacity: 0;
   animation: fadein 100ms linear 3400ms 1 forwards;
 }
 #headerContainer span:nth-child(4){
-  color: #ce4c4c;
-  opacity: 0;
   animation: fadein 100ms linear 3600ms 1 forwards;
 }
 #headerContainer span:nth-child(5){
-  color: #ce4c4c;
-  opacity: 0;
   animation: fadein 100ms linear 3800ms 1 forwards;
 }
 #headerContainer span:nth-child(6){
-  color: #ce4c4c;
-  opacity: 0;
   animation: fadein 100ms linear 4000ms 1 forwards;
 }
 #headerContainer span:nth-child(7){
-  color: #ce4c4c;
-  opacity: 0;
   animation: fadein 100ms linear 4200ms 1 forwards;
 }
 #headerContainer span:nth-child(8){
-  color: #ce4c4c;
-  opacity: 0;
   animation: fadein 100ms linear 4400ms 1 forwards;
 }
 #headerContainer span:nth-child(9){
-  font-size: 8rem;
-  color: #ce4c4c;
-  opacity: 0;
-  animation: fadein 100ms linear 5000ms 1 forwards;
+  animation: fadein 100ms linear 4600ms 1 forwards;
 }
 #headerContainer span:nth-child(10){
-  color: #ce4c4c;
-  opacity: 0;
-  animation: fadein 100ms linear 5200ms 1 forwards;
+  animation: fadein 100ms linear 4800ms 1 forwards;
 }
 #headerContainer span:nth-child(11){
-  color: #ce4c4c;
-  opacity: 0;
-  animation: fadein 100ms linear 5400ms 1 forwards;
+  animation: fadein 100ms linear 5000ms 1 forwards;
 }
 #headerContainer span:nth-child(12){
-  color: #ce4c4c;
-  opacity: 0;
-  animation: fadein 100ms linear 5600ms 1 forwards;
+  animation: fadein 100ms linear 5200ms 1 forwards;
 }
 #headerContainer span:nth-child(13){
-  color: #ce4c4c;
-  opacity: 0;
-  animation: fadein 100ms linear 5800ms 1 forwards;
+  animation: fadein 100ms linear 5400ms 1 forwards;
 }
 #headerContainer span:nth-child(14){
-  color: #ce4c4c;
-  opacity: 0;
-  animation: fadein 100ms linear 6000ms 1 forwards;
+  animation: fadein 100ms linear 5600ms 1 forwards;
 }
 #headerContainer span:nth-child(15){
-  color: #ce4c4c;
-  opacity: 0;
-  animation: fadein 100ms linear 6200ms 1 forwards;
+  animation: fadein 100ms linear 5800ms 1 forwards;
 }
 #headerContainer span:nth-child(16){
-  color: #ce4c4c;
-  opacity: 0;
-  animation: fadein 100ms linear 6400ms 1 forwards;
+  animation: fadein 100ms linear 6000ms 1 forwards;
+}
+iframe{
+  height: 25vh;
+}
+img{
+  height: 67vh;
+  width: auto;
+}
+img, iframe{
+  width: 100vw;
+}
+#hidden{
+  display: none;
+}
+#lethergo{
+
 }
 
-
-
-#hurtsthemost{
-  position: absolute;
-  right: 100vw;
-  animation: slideright 10s linear 3s 1 forwards;
-}
-#incaseyoudidntknow{
-  position: absolute;
-  right: 100vw;
-  animation: fadeout 10s linear 3s 1 forwards;
-}
-
-@keyframes slideleft{
-  0%{
-    top: 0px;
-    left: 120vw;
-    opacity: 1;
-  }
-  50%{
-    top: 50vh;
-    left: 50vw;
-    opacity: 1;
-  }
-  100%{
-    top: 0px;
-    left: -80vw;
-    opacity: 0;
-  }
-}
-@keyframes fadeout{
-  0%{
-    top: 40vh;
-    left: 40vw;
-    opacity: 1;
-  }
-  100%{
-    opacity: 0;
-  }
-}
-@keyframes fadein{
-  0%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 1;
-  }
-}
-@keyframes slideright{
-  0%{
-    top: 0px;
-    right: 120vw;
-    opacity: 1;
-  }
-  50%{
-    top: 50vh;
-    right: 50vw;
-    opacity: 1;
-  }
-  100%{
-    top: 0px;
-    right: -80vw;
-    opacity: 0;
-  }
-}
