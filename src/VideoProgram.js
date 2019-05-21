@@ -93,8 +93,15 @@ export default class VideoProgram extends Component {
     }
   
     render() {
-      return (
-        < Video video={this.state.currentVideo}/>
-      );
+        if (this.state.currentVideo && this.state.currentVideo.url){
+            return (
+              < Video video={this.state.currentVideo}/>
+            );
+
+        } else {
+            return (
+                null
+            )
+        }
     }
   }
