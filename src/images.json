@@ -1,22 +1,63 @@
 [
     {
         "url": "",
-        "delay": 10,
+        "delay": 7,
         "title": "blank"
     },
     {
-        "url": "https://i.pinimg.com/564x/cb/23/7c/cb237c7f806bcd0ecbd688991a99723b.jpg",
-        "delay": 7,
-        "title": "smokekiss"
+        "text": "I started this probably 9 months ago.",
+        "delay": 3,
+        "title": "text001"
     },
     {
-        "url": "https://i.pinimg.com/564x/6b/da/9d/6bda9d1af8dcbabdebd714c67a054609.jpg",
-        "delay": 7,
-        "title": "oneburnyoursoul"
+        "text": "And we've gone through so much since then...",
+        "delay": 3,
+        "title": "text001"
     },
     {
-        "url": "https://i.pinimg.com/564x/1b/2a/77/1b2a77ba9d54c0423201ea3334cc58a5.jpg",
+        "text": "At first I thought maybe you didn't know how much I loved you so I wanted to let you know.",
+        "delay": 5,
+        "title": "text002"
+    },
+    {
+        "text": "I honestly didn't think we had decided to end things... I thought we were on a break for 3 months that we would come back from...",
+        "delay": 5,
+        "title": "text003"
+    },
+    {
+        "text": "So I apologize for making things harder for you my sweetest Annette.",
+        "delay": 4,
+        "title": "text003"
+    },
+    {
+        "text": "I am so very grateful for every second I had with you.",
+        "delay": 4,
+        "title": "text004"
+    },
+    {
+        "text": "Hopefully you will feel what I am trying to express because the last few times I've felt I mucked it up.",
+        "delay": 5,
+        "title": "text005"
+    },
+    {
+        "url": "https://rlv.zcache.com/silly_winky_face_emoji_sticker-r652105564d6a457bbdb01981c58b21c6_v9wth_8byvr_540.jpg",
+        "delay": 2,
+        "title": "winky-face"
+    },
+    {
+        "text": "Mostly because I've never felt this raw with anyone before but I knew after a week with you I could be happy with only for the rest of my life.",
         "delay": 7,
-        "title": "soulmateisamirror"
+        "title": "text006",
+        "comment": "45 seconds"
+    },
+    {
+        "text": "",
+        "delay": 3,
+        "title": "blank"
+    },
+    {
+        "text": "I saw every woman I'd ever dated in you... I thought it had to be a twin flame connection.",
+        "delay": 7,
+        "title": "text007"
     }
 ]

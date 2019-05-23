@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Image from './Image';
+import Text from './Text';
 
 export default class ImageProgram extends Component {
     constructor(props) {
@@ -92,11 +93,11 @@ export default class ImageProgram extends Component {
     }
   
     render() {
-        if(this.state.currentImage.url){
-            return (
-              < Image image={this.state.currentImage}/>
-            );
-
-        } else return null
+        return(
+            <div>
+                {this.state.currentImage.text && < Text text={this.state.currentImage}/>}
+                {this.state.currentImage.url && < Image image={this.state.currentImage}/>}
+            </div>
+        )
     }
   }
