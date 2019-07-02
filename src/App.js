@@ -9,25 +9,16 @@ import videos from './videos.json';
 import images from './images';
 
 function App () {
+  let isMobile = window.screen.width <= 580;
 
-  if( window.screen.width <= 480 ) {
     return (
       <div className="App">
-        < MobileAlert />
+        {isMobile && < MobileAlert />}
         < Header text="Annette"/>
         < VideoProgram videos={videos} />
         < ImageProgram images={images} />
       </div>
     );
-  } else {
-    return (
-      <div className="App">
-      < Header text="Annette"/>
-      < VideoProgram videos={videos} />
-      < ImageProgram images={images} />
-    </div>
-    )
-  }
 }
 
 export default App;
