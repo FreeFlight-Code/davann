@@ -1,13 +1,13 @@
 import React from 'react';
 
 export default function (props){
-    const title = props.text;
+    // const title = props.text;
     // console.log(title.split(''))
-    var container = document.getElementById('root');
+    // var container = document.getElementById('root');
     // console.log(document.querySelector('#headerContainer'));
     // const span = document.createElement('span').innerHTML = title;
     // container.appendChild(span)
-    console.dir(document)
+    // console.dir(document)
 
     return (
         <div id='headerContainer'>

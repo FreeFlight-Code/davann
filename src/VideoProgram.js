@@ -19,7 +19,7 @@ export default class VideoProgram extends Component {
     }
 
     hasVideoData(){
-        if(!this.props.videos.length) throw "no data found";
+        if(!this.props.videos.length) console.log("No videos found");
         try{
             if(this.props.videos.length) return true
         }
@@ -73,7 +73,7 @@ export default class VideoProgram extends Component {
     }
 
     nextVideo(reset) {
-        let newIndex = ++this.state.videoIndex
+        let newIndex = this.state.videoIndex + 1;
 
         // if last video, repeat
         if(this.state.videoIndex === this.props.videos.length){
