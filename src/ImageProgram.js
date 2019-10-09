@@ -6,7 +6,7 @@ export default class ImageProgram extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            imageIndex: 0,
+            imageIndex: -1,
             currentImage: {}, 
             running: false,
             ended: true
@@ -14,15 +14,20 @@ export default class ImageProgram extends Component {
     }
     
     componentDidMount() {
-        if(this.checkImages()){
+        if(this.hasImageData()){
             this.start();
         };
     }
 
-    hasImageData(){
+    async hasImageData(){
         if(!this.props.images.length) console.log("no data found");
         try{
-            if(this.props.images.length) return true
+            if(this.props.images.length) {
+                await this.setState({
+                    imageIndex: 0
+                })
+            }
+            return (this.imageIndexIsGood())
         }
         catch (e){
             console.log(e);
@@ -33,12 +38,6 @@ export default class ImageProgram extends Component {
         if(this.state.imageIndex > -1 && this.state.imageIndex < this.props.images.length){
             return true;
         } else return false
-    }
-
-    checkImages(){
-        if(this.hasImageData() &&  this.imageIndexIsGood()){
-            return true
-        }
     }
 
     async start(){
@@ -76,7 +75,7 @@ export default class ImageProgram extends Component {
         let newIndex = this.state.imageIndex + 1;
 
         // if last video, repeat
-        if(this.state.imageIndex === this.props.images.length){
+        if(this.state.imageIndex === this.props.images.length -1){
                 this.start();
 
         // go to next video
@@ -95,8 +94,8 @@ export default class ImageProgram extends Component {
     render() {
         return(
             <div>
-                {this.state.currentImage.text && < Text text={this.state.currentImage}/>}
-                {this.state.currentImage.url && < Image image={this.state.currentImage}/>}
+                {this.state.currentImage && this.state.currentImage.text ? < Text text={this.state.currentImage}/> : null}
+                {this.state.currentImage && this.state.currentImage.url ? < Image image={this.state.currentImage}/>: null}
             </div>
         )
     }

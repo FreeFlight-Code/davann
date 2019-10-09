@@ -76,7 +76,7 @@ export default class VideoProgram extends Component {
         let newIndex = this.state.videoIndex + 1;
 
         // if last video, repeat
-        if(this.state.videoIndex === this.props.videos.length){
+        if(this.state.videoIndex === this.props.videos.length -1){
                 this.start();
 
         // go to next video
