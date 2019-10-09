@@ -3,8 +3,8 @@ import Header from './Header.js';
 import VideoProgram from './VideoProgram.js';
 import ImageProgram from './ImageProgram.js';
 import MobileAlert from './MobileAlert.js';
-import './App.css';
-import './animations.css';
+import './styles/App.css';
+import './styles/animations.css';
 import videos from './videos.json';
 import images from './images';
 
