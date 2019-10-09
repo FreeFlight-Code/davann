@@ -26,7 +26,7 @@ export default function (props){
             <span className='headerTitle'>i</span>
             <span className='headerTitle'>r</span>
             <span className='headerTitle'>l</span>
-            <span className='headerTitle'>,</span> 
+            <span className='headerTitle'>,</span>
         </div>
         )
     }
