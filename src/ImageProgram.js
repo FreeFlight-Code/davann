@@ -20,7 +20,7 @@ export default class ImageProgram extends Component {
     }
 
     hasImageData(){
-        if(!this.props.images.length) throw "no data found";
+        if(!this.props.images.length) console.log("no data found");
         try{
             if(this.props.images.length) return true
         }
@@ -73,7 +73,7 @@ export default class ImageProgram extends Component {
     }
 
     nextImage(reset) {
-        let newIndex = ++this.state.imageIndex
+        let newIndex = this.state.imageIndex + 1;
 
         // if last video, repeat
         if(this.state.imageIndex === this.props.images.length){
