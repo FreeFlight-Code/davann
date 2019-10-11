@@ -1,12 +1,22 @@
 [
     {
         "url": "",
-        "delay": 49,
+        "delay": 43,
         "title": "text"
     },
     {
-        "text": "Annette, I started this over a year ago.",
+        "text": "I do...still...love you, Annette.",
         "delay": 3,
+        "title": "text000"
+    },
+    {
+        "url": "",
+        "delay":"4",
+        "title": "text783"
+    },
+    {
+        "text": "I used to listen to this thinking it was about us...",
+        "delay": 5,
         "title": "text000"
     },
     {
@@ -16,21 +26,21 @@
     },
     {
         "text": "I felt every woman had led me to you...",
-        "delay": 3,
+        "delay": 5,
         "title": "text000"
     },
     {
         "text": "Every experience... every dream... I felt as though I'd met you before...",
-        "delay": 3,
+        "delay": 5,
         "title": "text000"
     },
     {
         "text": "A year away from you and it still doesn't feel like our time is over to me.",
-        "delay": 4,
+        "delay": 5,
         "title": "text003"
     },
     {
-        "text": "I am so very grateful for every second I had with you.",
+        "text": "Our song... still one of my favorites.",
         "delay": 5,
         "title": "text004"
     },
@@ -40,14 +50,10 @@
         "title": "text005"
     },
     {
-        "url": "https://i.pinimg.com/originals/11/63/77/116377db335748403c54e49dbd0c91f4.jpg",
-        "delay": 5,
-        "title": "text005"
-    },
-    {
-        "text": "I want to be the one by your side, through anything...",
-        "delay": 5,
-        "title": "text005"
+      "text": "I want to be the one by your side, through anything and everything...",
+      "url": "https://i.pinimg.com/originals/11/63/77/116377db335748403c54e49dbd0c91f4.jpg",
+      "delay": 5,
+      "title": "text005"
     },
     {
         "text": "I still remember the first day I saw you walk into India Palace...",

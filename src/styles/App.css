@@ -80,7 +80,7 @@ span:nth-child(1), span:nth-child(6), span:nth-child(12){
   animation: fadein 100ms linear 6000ms 1 forwards;
 }
 iframe{
-  height: 25vh;
+  height: 35vh;
   width: 100vw;
 }
 img{
@@ -106,7 +106,7 @@ img{
 #pachabel{
   position: absolute;
   left: 100vw;
-  
+
 }
 #winky-face{
   width: 100%;
