@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from './Header.js';
-import VideoProgram from './VideoProgram.js';
-import ImageProgram from './ImageProgram.js';
-import MobileAlert from './MobileAlert.js';
+import Header from './components/Header.js';
+import VideoProgram from './programs/VideoProgram.js';
+import ImageProgram from './programs/ImageProgram.js';
+import MobileAlert from './components/MobileAlert.js';
 import './styles/App.css';
 import './styles/animations.css';
-import videos from './videos.json';
-import images from './images';
+import videos from './programs/data/videos.json';
+import images from './programs/data/images.json';
 
 function App () {
   let isMobile = window.screen.width <= 580;

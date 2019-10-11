@@ -1,18 +1,18 @@
 import React, {Component} from 'react';
-import Image from './Image';
-import Text from './Text';
+import Image from '../components/Image';
+import Text from '../components/Text';
 
 export default class ImageProgram extends Component {
     constructor(props) {
         super(props);
         this.state = {
             imageIndex: -1,
-            currentImage: {}, 
+            currentImage: {},
             running: false,
             ended: true
         };
     }
-    
+
     componentDidMount() {
         if(this.hasImageData()){
             this.start();
@@ -88,9 +88,9 @@ export default class ImageProgram extends Component {
                   this.nextImage();
             }, this.state.currentImage.delay * 1000)
         }
-    
+
     }
-  
+
     render() {
         return(
             <div>

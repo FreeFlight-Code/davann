@@ -1,17 +1,17 @@
 import React, {Component} from 'react';
-import Video from './Video';
+import Video from '../components/Video';
 
 export default class VideoProgram extends Component {
     constructor(props) {
         super(props);
         this.state = {
             videoIndex: 0,
-            currentVideo: {}, 
+            currentVideo: {},
             running: false,
             ended: true
         };
     }
-    
+
     componentDidMount() {
         if(this.checkVideo()){
             this.start();
@@ -89,9 +89,9 @@ export default class VideoProgram extends Component {
                   this.nextVideo();
             }, this.state.currentVideo.delay * 1000)
         }
-    
+
     }
-  
+
     render() {
         if (this.state.currentVideo && this.state.currentVideo.url){
             return (
